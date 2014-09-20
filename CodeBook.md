@@ -8,10 +8,10 @@ reshape2 needs to be installed
 
 
 Script does the following:
-*Merges the training and the test sets to create one data set:
-	*`X` contains x train and test data.
-	*`Y` contains y train and test data.
-	*`subject` contains subject train and test data.
+Merges the training and the test sets to create one data set:
+`X` contains x train and test data.
+`Y` contains y train and test data.
+`subject` contains subject train and test data.
 
 
 Extracts only the measurements on the mean and standard deviation for each measurement: 
