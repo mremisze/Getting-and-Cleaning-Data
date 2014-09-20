@@ -4,18 +4,10 @@ Description of run_analysis.R code.
 Requirements:
 This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
 reshape2 needs to be installed
- 
-Merges the training and the test sets to create one data set.
-`X` contains x train and test data
-`Y` contains y train and test data
 
-Requirements:
-This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
-reshape2 needs to be installed
- 
+
 
 Script does the following:
-
 Merges the training and the test sets to create one data set:
 `X` contains x train and test data.
 `Y` contains y train and test data.
