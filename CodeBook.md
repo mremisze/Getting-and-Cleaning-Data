@@ -4,18 +4,17 @@
 Description of run_analysis.R code.
 
 Requirements:
-
-*This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
-*reshape2 needs to be installed
+	- This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are 		already downloaded and extracted.
+	- reshape2 needs to be installed
 
 1. Merges the training and the test sets to create one data set.
-* `X` contains x train and test data
-* `Y` contains y train and test data
-* `subject` contains subject train and test data
+	 `X` contains x train and test data
+	 `Y` contains y train and test data
+	 `subject` contains subject train and test data
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-* relabel column headers in `X` based on the data from `features`
-* load only measurements of mean and std to `X_final`
+	  relabel column headers in `X` based on the data from `features`
+	  load only measurements of mean and std to `X_final`
 
 3. Uses descriptive activity names to name the activities in the data set
 * add another column with activity names to `Y`
