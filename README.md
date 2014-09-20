@@ -20,11 +20,10 @@ Good luck!
 
 ## run_analysis.R
 
-### Generate Dataset
+### Requirements:
 
-Requirements:
+* This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
+* reshape2 package needs to be installed.
 
-This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
-reshape2 package needs to be installed.
 
-In order to run the scrip, copy/download it from the repo and execute  `source("run_analysis.R")`
+In order to run the script, copy/download it from the repo and execute  `source("run_analysis.R")`.
