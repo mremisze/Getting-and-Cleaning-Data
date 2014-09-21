@@ -24,6 +24,5 @@ Good luck!
 
 * This code assumes that files (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are already downloaded and extracted.
 * reshape2 package needs to be installed.
-
-
-In order to run the script, copy/download it from the repo and execute  `source("run_analysis.R")`.
+* clone the repo or download script in the same directory where the zip files are extracted.
+* execute `source("run_analysis.R")` in order to run th script.
