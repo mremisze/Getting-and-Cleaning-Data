@@ -52,4 +52,4 @@ rm(X_final,Y,subject,features)
 
 melt = melt(output,  c("Subject", "ActivityID", "Activity"))
 tidy   = dcast(melt, Subject + Activity ~ variable, mean)
-write.table(tidy, file = "./tidy_data.txt",row.name=FALSE)
+write.table(tidy, file = "tidy_data.txt",row.name=FALSE)
