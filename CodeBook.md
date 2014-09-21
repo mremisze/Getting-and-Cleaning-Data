@@ -1,4 +1,4 @@
-# Description of run_analysis.R code.
+# Code book for run_analysis.R.
 
 Below are outlined logical steps that script will perform.
 
