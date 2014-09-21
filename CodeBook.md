@@ -17,10 +17,10 @@ Merge the training and the test sets to create one data set:
 
 
 Extracts only the measurements on the mean and standard deviation for each measurement: 
-* features.txt data is loaded to `features.
+* features.txt data is loaded to `features`.
 * colnames() function is used to map column names in `X` into labels stored in `features`.
 * list `features_mean_std` is loaded that only load labels that contain mean or std.
-* list `features_mean_std` is used to only the measurements from `X` that contain mean or std and place the output `X_final`.
+* list `features_mean_std` is used to only the measurements from `X` that contain mean or std and place the output into `X_final`.
 * `X`is then dropped.
 
 Uses descriptive activity names to name the activities in the data set:
